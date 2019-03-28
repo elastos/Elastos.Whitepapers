@@ -59,29 +59,28 @@ This is material for any developer who has some experience with programming lang
 
 ### List of Active Repos
 
-#### [Elastos.Developer.Doc](https://github.com/elastos/Elastos.Developer.Doc)
-This is the repo that contains developer guides to get started. This is a work in progress.
+#### [Elastos.ELA](https://github.com/elastos/Elastos.ELA)
+ELA is the digital currency solution within Elastos ecosystem. This project is the source code that can build a full node of ELA.
+
+#### [Elastos.ELA.SideChain](https://github.com/elastos/Elastos.ELA.SideChain)
+ELA is the digital currency solution within Elastos ecosystem. This project is the source code that deals with sidechains of Elastos. Also, see:
+- https://github.com/elastos/Elastos.ELA.SideChain.ID
+- https://github.com/elastos/Elastos.ELA.SideChain.Token
 
 #### [Elastos.NET.Carrier.Native.SDK](https://github.com/elastos/Elastos.NET.Carrier.Native.SDK)
 Elastos Carrier is a decentralized peer to peer communication framework and this repository is the Native SDK from which all other SDKs are based on.
 
-#### [Elastos.ELA](https://github.com/elastos/Elastos.ELA)
-ELA is the digital currency solution within Elastos ecosystem. This project is the source code that can build a full node of ELA.
-
 #### [Elastos.Trinity](https://github.com/elastos/Elastos.Trinity)
 Elastos.Trinity is composite repository to Elastos Trinity infrastructure, which can be divided into the different submodules such as Trinity.Runtime, Trinity.DApps, Trinity.Plugins and Trinity.Toolchains.
 
-#### [Elastos.ELA.SideChain](https://github.com/elastos/Elastos.ELA.SideChain)
-ELA is the digital currency solution within Elastos ecosystem. This project is the source code that deals with sidechains of Elastos.
-
-#### [Elastos.NET](https://github.com/elastos/Elastos.NET)
-Elastos.NET is a composite repository to Elastos Carrier infrastructure, which in turn includes repository for Elastos Carrier for different platforms such as Native, Android, iOS. 
+#### [Elastos.Developer.Doc](https://github.com/elastos/Elastos.Developer.Doc)
+This is the repo that contains developer guides to get started. This is a work in progress.
 
 #### [Elastos.ELA.SPV](https://github.com/elastos/Elastos.ELA.SPV)
 Elastos SPV is a SDK of SPV (Simplified Payment Verification) implementation of the Elastos digital currency. The Elastos SPV SDK is a set of encryption algorithm, peer to peer network and SPV related implementation like bloom filter, merkleblock and util methods. As an example, this project includes an spv wallet implementation located in spvwallet folder. It will help you understand how to use this SDK and build your own apps. After installing, you can do some things locally like creating your own wallet, seeing account balance and a wide variety of other options.
 
-#### [Elastos.ORG.Wallet.Mobile](https://github.com/elastos/Elastos.ORG.Wallet.Mobile)
-This is the main repo that contains source code for mobile wallet for Trinity browser.
+#### [Elastos.NET](https://github.com/elastos/Elastos.NET)
+Elasots.NET is a portal repository to introduce Elastos serivce infrastructures related with Network. As so far as writing this document, this repostiory includes the introductions of Elastos Carrier and Elastos Hive.
 
 #### [Elastos.ORG.Wallet.Service](https://github.com/elastos/Elastos.ORG.Wallet.Service)
 This repo provide simple HTTP Restful API for developers to interact with elastos blockchain. You may need to construct your own local node to use some of these API.
@@ -89,18 +88,9 @@ This repo provide simple HTTP Restful API for developers to interact with elasto
 #### [Elastos.ORG.DID.Service](https://github.com/elastos/Elastos.ORG.DID.Service)
 This repo provide simple HTTP Restful API for developers to interact with elastos DID sidechain. You may need to construct your own local node to use some of these API.
 
-#### [Elastos.ELA.Client](https://github.com/elastos/Elastos.ELA.Client)
-This is the client program of the ELA node, which is a command line tool to control node and see node info etc. Also, this project includes a light implementation of ELA wallet that can create your ELA account, receive, create, sign or send transactions. You can run a node locally and set the miner address to your wallet account and then run the node to get your own ELAs and do whatever you want after that.
-
-#### [Elastos.ELA.Client.SideChain](https://github.com/elastos/Elastos.ELA.Client.SideChain)
-This repo is used to hold source code of ELA side chain command tool. There is another repo, Elastos.ELA.Client, that holds the source code of main chain command tool.
-
-#### [Elastos.ELA.Utility](https://github.com/elastos/Elastos.ELA.Utility)
-This is a common library referenced by all the repos of ELA nodes and clients, including Elastos.ELA, Elastos.ELA.Client, Elastos.ELA.SPV, etc. It is the basic component of these repos. This repo contains some common data structures like the message protocol of p2p network and the crypto algorithm of ELA coin. Changes to this repo will affect all the repos that reference it. Thus, any new commit to this repo should be treated very cautiously.
+#### [Elastos.ORG.API.Misc](https://github.com/elastos/Elastos.ORG.API.Misc)
+This repo provide simple HTTP Restful API for developers to interact with elastos DPoS voting statistics and DID transactions. You may need to construct your own local node to use some of these API.
 
 ## Community
-- **What kind of community members are you hiring?** [We Want You! Elastos Community Recruitment](https://medium.com/elastos/we-want-you-elastos-community-recruitment-da0e97694f63)
 - **How to contribute to the community?** [Contribution Guide](./CONTRIBUTING.md)
 - **How to raise an issue?** [Issue Submission Checklist](./ISSUE_SUBMISSION_CHECKLIST.md)
-- **Is there a gitlab repo dedicated to Elastos Developer Community?** [Elastos Developer Community Repo](https://github.com/elastos/Elastos.Community)
-- **Can I find other Elastos developers in my city?** [Elastos Developer Community Global](https://github.com/elastos/Elastos.Community.Global)
